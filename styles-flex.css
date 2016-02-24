@@ -1,0 +1,354 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: #4D4E50;
+}
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+ a{
+  text-decoration: none;
+  color: #4D4E50;
+ }
+
+/* --######### HEADER #####################################################-- */
+
+
+.header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #F3EAEF;
+  z-index: 9999;      
+  }
+    
+   
+.logo {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  }
+
+  .logo img {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+.nav-container{
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+}
+
+
+nav{
+  float: right;
+  right: 1%;
+  top: 5px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-transition: all .8s ease-in;
+    transition: all .5s ease-in;
+}
+
+nav ul li:hover {
+  color: white;
+  cursor: pointer;
+  color: #ADB2B8;
+}
+
+
+/* --######### LAPTOP PICTURE SECTION #####################################################-- */
+.top-pict{
+  top: 60px;
+  width: 100%;
+}
+
+.top-pict img{
+  width: 100%;
+}
+
+/* --######### ABOUT SECTION #####################################################-- */
+.about-me-picture-wrapper{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: row;
+  margin-top: 30px;
+  background-color: #EFEFEF
+}
+
+.empty-box{
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+}
+
+.picture-box{
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  margin-top: 30px;
+}
+
+.picture-box img{
+  width: 100%;
+}
+
+.about-me-text{
+  display: flex;
+  display: -webkit-flex;
+  background-color: #EFEFEF;
+}
+
+.about-me-text p{
+  margin-top: 30px;
+  padding: 0 10% 20px 10%;
+  font-size: 1.3em;
+  text-align: center;
+
+}
+
+.about-social{
+  display: -webkit-flex;
+  display: flex;
+  background-color: #EFEFEF;
+  padding-bottom: 30px;
+}
+
+.social-icons{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.fa-twitter, .fa-linkedin, .fa-github{
+  font-size: 3.5em;
+  text-align: center;
+}
+
+
+.social-icons a {
+text-align: center;
+display: block;
+margin-left: 0 auto 0 auto;
+}
+
+/* --######### SKILLS SECTION #####################################################-- */
+.skills{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column; /* Safari */
+  flex-direction: column;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #E3E5E4;
+}
+
+.skills h1{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.skills p{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.skills ul{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  margin: 50px auto 0px auto;
+}
+
+
+.skills ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 35px 0 0 ;
+}
+
+.skills ul li img{
+  width: 100px;
+}
+
+/* --######### EXPERIENCE SECTION #####################################################-- */
+.experience{
+  padding: 5% 10%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column; /* Safari */
+  flex-direction: column;
+  background-color: #EFEFEF;
+}
+
+.experience h1{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.experience-title{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column; /* Safari */
+  flex-direction: column;
+}
+
+.experience-title h1{
+  text-align: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.experience-column-wrapper{
+  padding: 0 2% 2% 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: row;
+}
+
+.experience-column{
+  padding: 0 3% 3% 0;
+  text-align: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.experience-column p{
+  font-size: 1.3em;
+}
+
+.cv-wrapper{
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: raw;
+}
+
+.cv{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+
+.cv h1{
+  text-align: center;
+}
+
+.fa-file-pdf-o{
+  font-size: 1.5em;
+}
+
+
+/* --######### PORTFOLIO SECTION #####################################################-- */
+
+.projects-title{
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: raw;
+  padding: 5% 10%;
+  background-color: #E3E5E4;
+}
+
+.projects-title h1{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+
+.portfolio-container{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  flex-flow: row wrap; 
+  padding-bottom: 60px;
+  margin: 0;
+  list-style: none;
+  background-color: #E3E5E4;
+}
+
+ul.portfolio-container{
+  padding: 0px 0px 60px 0px;
+}
+
+.portfolio-project {
+  background: tomato;
+  padding: 5px;
+  width: 30%;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* --######### CONTACT SECTION #####################################################-- */
+
+.contact-wrapper{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: row;
+  padding: 30px 0 30px 0;
+}
+
+.contact-content{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+/* --######### FOOTER #####################################################-- */
+.footer-wrapper{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+footer{  
+  flex: 1;
+  background-color: #F3EAEF;  
+}
+
+footer p{
+  margin-left: 20px;
+}
+
+.github-footer{
+  float: right;
+  display: inline-block;
+  margin: -50px 20px 0 0;
+}

@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+ 
+body{
+	color: red;
+}
+
+/* ############### HEADER ################### */
+
+.header{
+	height: 80px;
+}
+
+.logo{
+	display: none;
+}
+
+nav{
+	margin-top: 7px;
+  
+}
+
+nav ul li{
+	 font-size: 25px;
+}
+
+
+/* ############### TOP PICTURE ################### */
+
+.top-pict img{
+  margin-top: 60px;
+}
+
+
+/* ############### SKILLS ################### */
+
+.skills{
+	padding: 3% 10%;
+}
+
+.skills h1{
+	margin: 10px 0px 0px 0px;
+} 
+
+.skills p{
+	margin: 0;
+	padding-top: 0;
+}
+
+.skills ul li img{
+  width: 80px;
+}
+
+.skills ul li{
+  padding: 0 10px 0 0 ;
+  margin: 0;
+}
+
+/* ############### EXPERIENCE ################### */
+
+.experience-title h1{
+	margin: 10px 0px 0px 0px;
+} 
+
+/* ############### PROJECTS ################### */
+
+.projects-title h1{
+	margin: 10px 0px 20px 0px;
+} 
+
+.projects-title {
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 0px;
+} 
+
+/* ############### FOOTER ################### */
+
+footer{
+	padding: 10px 0px 10px 0px;
+}
+
+}
